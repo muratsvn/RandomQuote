@@ -9,56 +9,44 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-
 }
-
 .container{
-    padding: 30px;
+    padding: 5px;
     text-align: center;
     width: 55%;
+    height: auto;
 }
 
 .heading{
-    font-size: 35px;
-    color:rgb(0,95,135)
+    font-size: 3vw;
+    font-weight: 700;
+    color:rgb(0,95,135) ;
 }
 
 .quote{
-    font-size: 30px;
+    font-size: 2.6vw;
     font-weight: 600;
 }
 
 .author{
-    font-size: 25px;
+    font-size: 2.2vw;
+    font-style: italic;
 }
 
 .btn{
-    font-size: 15px;
+    font-size: 1.8vw;
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     width: 250px;
-    margin-bottom: 10px;
     text-transform: uppercase;
-    background-color: rgb(235,184,108) ;
+    background-color:rgb(235,184,108) ;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px){
-    .headign{
-        font-size: 25px;
-    }
-
-    .quote{
-        font-size: 20px;
-    }
-
-    .author{
-        font-size: 15px;
-    }
-    
+@media screen and (max-width:700px) {
+ .container{
+    width: 80%;
+ }
 }
 
